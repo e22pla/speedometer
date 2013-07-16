@@ -1,0 +1,67 @@
+.timeline {
+  background-color: #e1e1e1;
+  width: 2px;
+  margin: auto;
+  font-family: 'Helvetica Neue';
+  margin-top: 60px;
+}
+
+.event {
+  color: #9f9f9f;
+  margin-bottom: 25px;
+  width: 325px;
+  position: relative;
+}
+
+.event small {
+  display: block;
+  margin-top: 5px;
+}
+
+.event small img.instagram {
+  margin-top: 3px;
+  margin-right: 3px;
+  width: 30px;
+  height: 30px;
+}
+
+.point {
+  background-color: #9f9f9f;
+  border-radius: 8px;
+  border: 4px solid white;
+  width: 6px;
+  height: 6px;
+  margin-left: -6px;
+  display: inline-block;
+  position: absolute;
+  top: 43%;
+}
+
+.date {
+  position: absolute;
+  width: 200px;
+  left: -220px;
+  top: 43%;
+  font-size: 12px;
+  text-align: right;
+}
+
+.entry {
+  border: 2px solid #e1e1e1;
+  border-radius: 4px;
+  padding: 25px;
+  margin-left: 25px;
+  display: inline-block;
+  max-width: 250px;
+}
+
+.entry.link:hover {
+  border: 2px solid #658cdc;
+  cursor: pointer;
+}
+
+a, a:focus, a:hover, a:visited {
+  color: #658cdc;
+  text-decoration: none;
+  display: block;
+}
